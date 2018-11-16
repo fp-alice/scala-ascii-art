@@ -43,29 +43,30 @@ Finally, there is a required file argument for the image input.
 ```
 java -jar scala-ascii-art.jar -c 8 pictures/star.png -w pictures/star.txt
                                                   
-                      ______                      
-                    ____PP____                    
-                    __}}  }}__                    
-                  !!__      __!!                  
-                  ____      ____                  
-                  __SS      44__                  
-                ::__          __::                
-  __________________          __________________  
-;;__??AAKK&&QQ                      QQ&&KKAA??__;;
-____                                          ____
-pp____                                      ____PP
-  JJ____@@                              @@____JJ  
-      ____??                          ??____      
-        ______                      ______        
-          **__oo                  oo__\\          
-          vv__                      __vv          
-          ____                      ____          
-          __rr                      rr__          
-        qq__          ::__::          __qq        
-        ____        __________        ____        
-        ____    !!____@@  @@____!!    ____        
-        ____GG____,,          ,,____GG____        
-        00______GG              qq______00        
+                      00MMQQ                      
+                    MMMMMMMMMM                    
+                  llMMMMMMMMMMll                  
+                  MMMMMM  MMMMMM                  
+                  MMMMMM  MMMMMM                  
+                FFMMMM;;  ;;MMMM}}                
+                MMMMMM      MMMMMM                
+  jjMMMMMMMMMMMMMMMMMM      MMMMMMMMMMMMMMMMMMjj  
+NNMMMMMMMMMMMMMMMMMM::      ::MMMMMMMMMMMMMMMMMMWW
+MMMMMMMMMMMMMMMMMMMM          MMMMMMMMMMMMMMMMMMMM
+MMMMOO                                      $$MMMM
+MMMMMMMM                                  MMMMMMMM
+;;MMMMMMMM''                          ''MMMMMMMM;;
+    MMMMMMMMcc                      ccMMMMMMMM    
+      WWMMMMMMMM                  MMMMMMMMWW      
+        ??MMMMMM                  MMMMMMjj        
+          MMMMMM                  MMMMMM          
+        ;;MMMMcc                  ccMMMM;;        
+        MMMMMM        ;;MM;;        MMMMMM        
+        MMMMMM      RRMMMMMMRR      MMMMMM        
+      --MMMMSS  ,,MMMMMMMMMMMMMM,,  SSMMMM--      
+      GGMMMM  aaMMMMMMMM!!MMMMMMMMaa  MMMMpp      
+      LLMMMMMMMMMMMM00      00MMMMMMMMMMMMvv      
+        MMMMMMMMMM;;          ;;MMMMMMMMMM        
+          @@MM##                  RRMM@@             
                                            
-
 ```
