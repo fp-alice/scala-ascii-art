@@ -43,11 +43,11 @@ class AsciiCharacter(val char: String, val font: String) {
     // Get graphics context for the image so we can do stuff to it
     val graphics: Graphics = image.getGraphics
 
-    // Set a black background
+    // Set a white background
     graphics.setColor(Color.WHITE)
     graphics.fillRect(0, 0, 45, 75)
 
-    // Write our character in the middle of the image in white
+    // Write our character in the middle of the image in black
     graphics.setColor(Color.BLACK)
     graphics.setFont(new Font(font, Font.PLAIN, 75))
     graphics.drawString(char, 0, 60)
