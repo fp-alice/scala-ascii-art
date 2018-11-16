@@ -67,7 +67,7 @@ class AsciiCharacter(val char: String, val font: String) {
   def calcLightness(): Double = {
     if (file.exists()) {
       val pixels = Image.fromFile(file).filter(GrayscaleFilter).pixels
-      val values = pixels.map(p => Util.rgbToLightness(p.toColor))
+      val values = pixels.map(p => 255 - Util.rgbToLightness(p.toColor))
       values.sum / values.length
     } else {
       writeImage()
