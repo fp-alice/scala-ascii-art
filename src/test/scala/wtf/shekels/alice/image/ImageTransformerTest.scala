@@ -11,8 +11,8 @@ class ImageTransformerTest extends FlatSpec with Matchers {
 
   it should "correctly convert a sample image" in {
     // Given
-    val chars = "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM,;'[]<>?:{}\\\\1234567890-=!@#$%^&*()_+"
-    val alphabet = new Alphabet(chars)
+    val chars = "-#"
+    val alphabet = new Alphabet(chars, "Monospace")
     val sourcePath = getClass.getResource("/star.png").getPath
 
     // When
